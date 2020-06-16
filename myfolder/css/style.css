@@ -6,7 +6,9 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Balsamic", sans-serif;
+  background-color: rgba(121, 195, 255, .2);
 }
+
 
 /*------------------------------------------------------------header and nav*/
 
@@ -19,7 +21,7 @@ header{
   background-color: #308fdd;
   width: 100%;
   box-sizing: border-box;
-  }
+}
 
 header .logo{
     color: #fff;
@@ -86,48 +88,88 @@ header nav ul li a:hover
   display: none;
 }
 
+/*------------------------------------------------------------index-pictures*/
+/*---I used these 2 pictures to decorate the homepage. I named the classes, using their position in the page---*/
 
-
-/*------------------------------------------------------------sections*/
-
-.board{
-  margin-left: 30%;
-  margin-top: 10%;
-  margin-bottom: 100px;
+.top-pic img{
+    height: 450px;
+    width: 100%;
+    margin-top: 3.7%;  /*--to don't have the top part of the image coverede by the navbar--*/
 }
 
 
-section img{
-  width:50%;
-  height: 200px;
-  border: black 10px solid;
-}
-
-.label{
-  border-radius: 50%;
-  border: solid black 10px;
-  width: 50%;
-  background-color: #fff;
-  
-}
-
-.label h2{
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-  
+.mid-pic img{
+    height: 450px;
+    width: 100%;
+    
 }
 
 
-.label h2:hover{
-  color: rgb(94, 94, 241);
-  text-decoration: none;
-  font-size: 40px;
+/*---------------------------------------------------------------------------cards responsivity */
+/*--the cards are an adjustment of the previous homepage that was completely different (lot of empty white space)*/
+
+@media (max-width: 576px) {  
+  .xs {color:red;font-weight:bold;}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:768px) {  
+  .sm {color:red;font-weight:bold;}
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:992px) {  
+ .md {color:red;font-weight:bold;}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) { 
+ .lg {color:red;font-weight:bold;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .xl {color:red;font-weight:bold;}
+}
+ 
+/*-------------------------------------------------------------------homepage cards styling */
+
+.container{
+    margin-bottom: 100px;
+}
+
+
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+
+.container h4{
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.container h4:hover{
+    font-size: 30px;
+    color: rgb(48, 48, 248);
+}
+
+
+.card-body{
+    background-color: rgb(218, 216, 216);
+    text-align: center;
 }
 
 
 
 /*------------------------------------------------------------footer*/
+
 footer{
   height: 50px;
   background-color: #308fdd;
@@ -135,13 +177,11 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-
 }
 
 .socialnet{
   text-align: center;
   margin-bottom:100px;
-  
 }
 
 .socialnet li{
@@ -152,7 +192,6 @@ footer{
   font-size: 150%;
   margin: 20px;
   color: #fff;
-  
 }
 
 
@@ -160,19 +199,20 @@ footer{
 /*------------------------------------------------------------map*/
 
 .mappa{
-  margin-left: 30%;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
+  margin-left:  auto;
+  margin-right: auto;
+  width: 70%; 
 }
 
 .mappa h1{
   text-transform: uppercase; 
-  text-align: left;
+  text-align: center;  
 }
 
-.mappa img{
-  width:50%;
-  border: solid black 2px;
+.bordo{
+    border: 1px black solid;
 }
 
 
@@ -199,38 +239,37 @@ footer{
 }
 
 
-
-
 /*------------------------------------------------------------contacts-Page*/
 
 
 .signup-form{
              
-             margin: auto;
-             margin-top: 90px;
-             color: #fff;
-             background-color: rgba(60, 60, 60, .6);
-             width: 500px;
-             padding-left: 10px;
+    margin: 0 auto; 
+    margin-top: 70px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, .6);
+    width: 500px;
+    padding-left: 10px;
 }
 
 
 .signup-form h2{
-                color: #fafafa;
-                margin-bottom: 20px;
-                text-align: center;
+    color: #fafafa;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
   
   
 .text-input{
-            background-color: transparent;
-            color: #fafafa;
-            width: 90%;
-            height: 25px;
-            margin: 0 auto; 
-            border: 1px solid #fafafa;
-            border-radius: 2px;
+    background-color: transparent;
+    color: #fafafa;
+    width: 90%;
+    height: 25px;
+    margin: 0 auto; 
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    margin-bottom: 25px;
 }
 
 
@@ -240,20 +279,20 @@ footer{
             width: 90%;
             height: 100px;
             margin: 0 auto; 
-            padding-top: 20px;     
+            margin-bottom: 20px;
             border: 1px solid #fafafa;
-            border-radius: 2px;
+            border-radius: 5px;
 }
 
 
 .my-button{
               margin: 0 auto;
               border-radius: 2px;
-              
               padding: 15px 32px 15px 32px;
               text-align: center;
               font-size: 100%;
-              background-color: #f70404;
+              font-weight: 700;
+              background-color: #48dd00;
               color:#fafafa;
               display: block;
 }
@@ -377,14 +416,6 @@ img{
 /*----------------------------------------------------------------------------------------------------mobile*/
 @media (max-width:991px){
 
-body{
-  background: url("../pictures/mj.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 
 /*------------------------------------------------------------mobile-header-nav*/
 
@@ -423,6 +454,16 @@ header nav ul{
 header nav ul li a{
   border-bottom: 1px solid rgba(0,0,0, .2); 
   border-top: 1px solid rgba(0,0,0, .2);
+}
+
+
+
+/*------------------------------------------------------------mobile-index-pictures*/
+
+
+.top-pic img{
+    height: 300px;
+    margin-top: 12.8%;
 }
 
 
@@ -473,25 +514,26 @@ section img{
 /*------------------------------------------------------------mobile-map*/
 
 .mappa{
-  margin-bottom: 30%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20%;
 }
 
 
 .mappa h1{
-  text-transform: uppercase; 
   background-color: #fff;
   border: black solid 2px;
   text-align: center;
   font-size: 25px;
-  
+  text-transform: uppercase;
 }
 
-.mappa img{
-  width:100%;
-  border: solid black 2px;
+.bordo{
+    border: 1px black solid;
 }
+
+
 
 /*------------------------------------------------------------mobile whyJordans Page*/
 
@@ -530,13 +572,12 @@ section img{
 
 .signup-form{
     background-color: rgba(60, 60, 60, .8);
-    margin-top: 90px;
+    margin-top: 70px;
     width: 390px;
 }
 
 
 /*------------------------------------------------------------mobile-Jordan_in-Page*/
-
 
 .box{
      height: 90px;
@@ -544,7 +585,6 @@ section img{
      margin: 0 auto;
      margin-top: 90px;
 }
-
 
 
 .hotshoes{
@@ -600,4 +640,19 @@ section img{
     margin-left: 20px;
 }
 
+
+/*-------------------------------------------------------------------mobile cards styling */
+
+.container h2{
+    font-size: 40px;
+}
+
+.card{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    
 }
