@@ -21,6 +21,7 @@ header{
   background-color: #308fdd;
   width: 100%;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 header .logo{
@@ -73,11 +74,6 @@ header nav ul li a:hover
 }
 
 
-.menu{
-    background: orange;
-}
-
-
 
 .menu-toggle{
   color: #fff;
@@ -94,7 +90,7 @@ header nav ul li a:hover
 .top-pic img{
     height: 450px;
     width: 100%;
-    margin-top: 3.7%;  /*--to don't have the top part of the image coverede by the navbar--*/
+    margin-top: 3.7%;  /*--to don't have the top part of the image covered by the navbar--*/
 }
 
 
@@ -105,32 +101,6 @@ header nav ul li a:hover
 }
 
 
-/*---------------------------------------------------------------------------cards responsivity */
-/*--the cards are an adjustment of the previous homepage that was completely different (lot of empty white space)*/
-
-@media (max-width: 576px) {  
-  .xs {color:red;font-weight:bold;}
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width:768px) {  
-  .sm {color:red;font-weight:bold;}
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) and (max-width:992px) {  
- .md {color:red;font-weight:bold;}
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1200px) { 
- .lg {color:red;font-weight:bold;}
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    .xl {color:red;font-weight:bold;}
-}
  
 /*-------------------------------------------------------------------homepage cards styling */
 
@@ -146,18 +116,22 @@ header nav ul li a:hover
     font-weight: 700;
     margin-top: 70px;
     margin-bottom: 40px;
+    color: rgb(92, 92, 226);
 }
 
 
 .container h4{
     text-align: center;
     font-size: 25px;
-    color: #000;
+    color: rgba(0, 0, 0, 0.452);
 }
 
 .container h4:hover{
-    font-size: 30px;
     color: rgb(48, 48, 248);
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 
@@ -166,7 +140,10 @@ header nav ul li a:hover
     text-align: center;
 }
 
-
+.card-text:hover{
+    background-color: rgb(228, 224, 25);
+    color: #fff;
+}
 
 /*------------------------------------------------------------footer*/
 
@@ -194,6 +171,9 @@ footer{
   color: #fff;
 }
 
+.socialnet :hover{
+    color: rgb(241, 80, 80);
+}
 
 
 /*------------------------------------------------------------map*/
@@ -244,8 +224,10 @@ footer{
 
 .signup-form{
              
-    margin: 0 auto; 
-    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 65px;
+    margin-bottom: 65px;
     color: #fff;
     background-color: rgba(60, 60, 60, .6);
     width: 500px;
@@ -334,11 +316,37 @@ footer{
 }
 
 
+.hotshoes h2:hover{
+    background-color: rgb(228, 224, 25);
+    color: #fff;
+}
+
+
+
+
 img{
     width: 100%;
     height: 180px;
 }
 
+
+.box-list{
+    height: 90px;
+     width: 600px;
+     background-color: rgb(62, 233, 27);
+     color: rgb(255, 251, 0);
+     margin-top: 390px;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 35px;
+     text-align: center;
+}
+
+
+.box-list h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 /*------------------------------------------------------------Jordan_out-Page*/
 /*-----------------------------------------Jordan for men--*/
@@ -653,6 +661,130 @@ section img{
     margin-right: auto;
 }
 
+   
+}
 
-    
+
+
+
+/*--------------------------------------------------------------------------home page cards responsivity */
+/*--the cards are an adjustment of the previous homepage that was completely different (lot of empty white space)*/
+
+@media (max-width: 576px) {  
+  .xs {color:red;font-weight:bold;}
+/*----------------------------------------------------------XS--index-Page*/
+ 
+.card{
+    margin-bottom: 70px;
+    height: 285px;
+}
+
+/*----------------------------------------------------------XS--Jordan_in-Page*/
+
+.box{
+    font-size: 24px;
+}
+
+.box h2{
+    font-size: 24px;
+}
+
+.box-list{
+    clear: left;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.box-list h2{
+    font-size: 26px;
+}
+/*----------------------------------------------------------XS--Jordan_out-Page*/
+
+.box-out h2{
+    font-size: 26px;
+}
+
+
+.box-women h2{
+    font-size: 26px;
+}
+
+
+.box-kids h2{
+    font-size: 26px;
+}
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:768px) {  
+  .sm {color:red;font-weight:bold;}
+
+
+/*----------------------------------------------------------SM--index-Page*/
+.top-pic img{
+    margin-top: 7%;
+}
+
+.card{
+    margin-bottom: 70px;
+}
+
+/*----------------------------------------------------------SM--Jordan_in-Page*/
+
+.box-list{
+    clear: left;
+    width: 100%;
+}
+
+
+/*----------------------------------------------------------SM--contacts-Page*/
+
+.signup-form{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:992px) {  
+ .md {color:red;font-weight:bold;}
+
+/*----------------------------------------------------------MD--index-Page*/
+.top-pic img{
+    margin-top: 6.5%;
+}
+
+/*----------------------------------------------------------MD--contacts-Page*/
+
+.signup-form{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 600px;
+}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) { 
+ .lg {color:red;font-weight:bold;}
+
+/*----------------------------------------------------------LG--contacts-Page*/
+
+.signup-form{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 700px;
+}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .xl {color:red;font-weight:bold;}
+
+
 }
