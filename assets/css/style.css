@@ -1,790 +1,670 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:100,200,300,400,500,600,700|Mukta:100,200,300,400,500,600,700');
-
-
-body{
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Balsamic", sans-serif;
-  background-color: rgba(121, 195, 255, .2);
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: "Balsamic", sans-serif;
+   background-color: rgba(121, 195, 255, .2);
 }
 
 
 /*------------------------------------------------------------header and nav*/
 
-
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 0 100px;
-  background-color: #308fdd;
-  width: 100%;
-  box-sizing: border-box;
-  z-index: 10;
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 0 100px;
+   background-color: #308fdd;
+   width: 100%;
+   box-sizing: border-box;
+   z-index: 10;
 }
 
-header .logo{
-    color: #fff;
-    height: 50px;
-    line-height: 50px;
-    font-size: 24px;
-    float: left;
-    font-weight: bold;
+header .logo {
+   color: #fff;
+   height: 50px;
+   line-height: 50px;
+   font-size: 24px;
+   float: left;
+   font-weight: bold;
 }
 
-header .logo a:hover{
-    color: #fff;
-    text-decoration: none;
+header .logo a:hover {
+   color: #fff;
+   text-decoration: none;
 }
 
-header nav{
-    float: right;
+header nav {
+   float: right;
 }
-
 
 header nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
+   margin: 0;
+   padding: 0;
+   display: flex;
 }
 
-header nav ul li{
-    list-style: none;
+header nav ul li {
+   list-style: none;
 }
 
-
-header nav ul li a{
-  height: 50px;
-  line-height: 50px;
-  padding: 0 20px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  display: block;
+header nav ul li a {
+   height: 50px;
+   line-height: 50px;
+   padding: 0 20px;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   display: block;
 }
 
-
-header nav ul li a:hover
-{
-  color: black;
-  background-color: orange;
-  text-decoration: none;
+header nav ul li a:hover {
+   color: black;
+   background-color: orange;
+   text-decoration: none;
 }
 
-
-
-.menu-toggle{
-  color: #fff;
-  float: right;
-  line-height: 50px;
-  font-size: 24px;
-  cursor: pointer;
-  display: none;
+.menu-toggle {
+   color: #fff;
+   float: right;
+   line-height: 50px;
+   font-size: 24px;
+   cursor: pointer;
+   display: none;
 }
+
 
 /*------------------------------------------------------------index-pictures*/
+
+
 /*---I used these 2 pictures to decorate the homepage. I named the classes, using their position in the page---*/
 
-.top-pic img{
-    height: 450px;
-    width: 100%;
-    margin-top: 3.7%;  /*--to don't have the top part of the image covered by the navbar--*/
+.top-pic img {
+   height: 450px;
+   width: 100%;
+   margin-top: 3.7%;
+   /*--to don't have the top part of the image covered by the navbar--*/
+}
+
+.mid-pic img {
+   height: 450px;
+   width: 100%;
 }
 
 
-.mid-pic img{
-    height: 450px;
-    width: 100%;
-    
-}
-
-
- 
 /*-------------------------------------------------------------------homepage cards styling */
 
-.container{
-    margin-bottom: 100px;
+.container {
+   margin-bottom: 100px;
 }
 
-
-.container h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 80px;
-    font-weight: 700;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    color: rgb(92, 92, 226);
+.container h2 {
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 80px;
+   font-weight: 700;
+   margin-top: 70px;
+   margin-bottom: 40px;
+   color: rgb(92, 92, 226);
 }
 
-
-.container h4{
-    text-align: center;
-    font-size: 25px;
-    color: rgba(0, 0, 0, 0.452);
+.container h4 {
+   text-align: center;
+   font-size: 25px;
+   color: rgba(0, 0, 0, 0.452);
 }
 
-.container h4:hover{
-    color: rgb(48, 48, 248);
+.container h4:hover {
+   color: rgb(48, 48, 248);
 }
 
-a:hover{
-    text-decoration: none;
+a:hover {
+   text-decoration: none;
 }
 
-
-.card-body{
-    background-color: rgb(218, 216, 216);
-    text-align: center;
+.card-body {
+   background-color: rgb(218, 216, 216);
+   text-align: center;
 }
 
-.card-text:hover{
-    background-color: rgb(228, 224, 25);
-    color: #fff;
+.card-text:hover {
+   background-color: rgb(228, 224, 25);
+   color: #fff;
 }
+
 
 /*------------------------------------------------------------footer*/
 
-footer{
-  height: 50px;
-  background-color: #308fdd;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+footer {
+   height: 50px;
+   background-color: #308fdd;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
 
-.socialnet{
-  text-align: center;
-  margin-bottom:100px;
+.socialnet {
+   text-align: center;
+   margin-bottom: 100px;
 }
 
-.socialnet li{
-  display: inline; 
+.socialnet li {
+   display: inline;
 }
 
 .socialnet i {
-  font-size: 150%;
-  margin: 20px;
-  color: #fff;
+   font-size: 150%;
+   margin: 20px;
+   color: #fff;
 }
 
-.socialnet :hover{
-    color: orange;
+.socialnet :hover {
+   color: orange;
 }
 
 
 /*------------------------------------------------------------map*/
 
-.mappa{
-  margin-top: 10%;
-  margin-bottom: 7%;
-  margin-left:  auto;
-  margin-right: auto;
-  width: 70%; 
+.mappa {
+   margin-top: 10%;
+   margin-bottom: 7%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
 }
 
-.mappa h1{
-  text-transform: uppercase; 
-  text-align: center;  
+.mappa h1 {
+   text-transform: uppercase;
+   text-align: center;
 }
 
-.bordo{
-    border: 1px black solid;
+.bordo {
+   border: 1px black solid;
 }
-
 
 
 /*------------------------------------------------------------whyJordans Page*/
 
-
-.story{
-    margin: 8%;
+.story {
+   margin: 8%;
 }
 
-.title{
-    color: red;
-    font-weight: 700;
-    margin-bottom: 5%;
+.title {
+   color: red;
+   font-weight: 700;
+   margin-bottom: 5%;
 }
 
 .par h1 {
-    padding-top: 3%;
+   padding-top: 3%;
 }
 
-.par p{
-    margin-bottom: 3%;
+.par p {
+   margin-bottom: 3%;
 }
 
 
 /*------------------------------------------------------------contacts-Page*/
 
-
-.signup-form{
-             
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 65px;
-    margin-bottom: 65px;
-    color: #fff;
-    background-color: rgba(60, 60, 60, .6);
-    width: 500px;
-    padding-left: 10px;
+.signup-form {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 65px;
+   margin-bottom: 65px;
+   color: #fff;
+   background-color: rgba(60, 60, 60, .6);
+   width: 500px;
+   padding-left: 10px;
 }
 
-
-.signup-form h2{
-    color: #fafafa;
-    margin-bottom: 20px;
-    text-align: center;
+.signup-form h2 {
+   color: #fafafa;
+   margin-bottom: 20px;
+   text-align: center;
 }
 
-  
-  
-.text-input{
-    background-color: transparent;
-    color: #fafafa;
-    width: 90%;
-    height: 25px;
-    margin: 0 auto; 
-    border: 1px solid #fafafa;
-    border-radius: 5px;
-    margin-bottom: 25px;
+.text-input {
+   background-color: transparent;
+   color: #fafafa;
+   width: 90%;
+   height: 25px;
+   margin: 0 auto;
+   border: 1px solid #fafafa;
+   border-radius: 5px;
+   margin-bottom: 25px;
 }
 
-
-.shoes-input{
-            background-color: transparent;
-            color: #fafafa;
-            width: 90%;
-            height: 100px;
-            margin: 0 auto; 
-            margin-bottom: 20px;
-            border: 1px solid #fafafa;
-            border-radius: 5px;
+.shoes-input {
+   background-color: transparent;
+   color: #fafafa;
+   width: 90%;
+   height: 100px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   border: 1px solid #fafafa;
+   border-radius: 5px;
 }
 
-
-.my-button{
-              margin: 0 auto;
-              border-radius: 2px;
-              padding: 15px 32px 15px 32px;
-              text-align: center;
-              font-size: 100%;
-              font-weight: 700;
-              background-color: #48dd00;
-              color:#fafafa;
-              display: block;
+.my-button {
+   margin: 0 auto;
+   border-radius: 2px;
+   padding: 15px 32px 15px 32px;
+   text-align: center;
+   font-size: 100%;
+   font-weight: 700;
+   background-color: #48dd00;
+   color: #fafafa;
+   display: block;
 }
-
 
 
 /*------------------------------------------------------------Jordan_in-Page*/
 
-
-.box{
-     height: 105px;
-     width: 600px;
-     background-color: rgb(253, 249, 13);
-     color: rgb(250, 7, 7);
-     margin: 0 auto;
-     margin-top: 110px;
-     font-size: 35px;
-     text-align: center;
+.box {
+   height: 105px;
+   width: 600px;
+   background-color: rgb(253, 249, 13);
+   color: rgb(250, 7, 7);
+   margin: 0 auto;
+   margin-top: 110px;
+   font-size: 35px;
+   text-align: center;
 }
 
-
-.box h2{
-    text-transform: uppercase;
-    font-weight: 600;
+.box h2 {
+   text-transform: uppercase;
+   font-weight: 600;
 }
 
-
-.hotshoes{
-    float: left;
-    width: 20%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    margin-top: 6%;
+.hotshoes {
+   float: left;
+   width: 20%;
+   margin-left: 10%;
+   margin-bottom: 5%;
+   margin-top: 6%;
 }
 
-
-.hotshoes a{
-    text-align: center;
+.hotshoes a {
+   text-align: center;
 }
 
-
-.hotshoes h2:hover{
-    background-color: rgb(228, 224, 25);
-    color: #fff;
+.hotshoes h2:hover {
+   background-color: rgb(228, 224, 25);
+   color: #fff;
 }
 
-
-
-
-img{
-    width: 100%;
-    height: 180px;
+img {
+   width: 100%;
+   height: 180px;
 }
 
-
-.box-list{
-    height: 90px;
-     width: 600px;
-     background-color: rgb(62, 233, 27);
-     color: rgb(255, 251, 0);
-     margin-top: 390px;
-     margin-left: auto;
-     margin-right: auto;
-     font-size: 35px;
-     text-align: center;
+.box-list {
+   height: 90px;
+   width: 600px;
+   background-color: rgb(62, 233, 27);
+   color: rgb(255, 251, 0);
+   margin-top: 390px;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 35px;
+   text-align: center;
 }
 
-
-.box-list h2{
-    text-transform: uppercase;
-    font-weight: 600;
+.box-list h2 {
+   text-transform: uppercase;
+   font-weight: 600;
 }
+
 
 /*------------------------------------------------------------Jordan_out-Page*/
+
+
 /*-----------------------------------------Jordan for men--*/
 
-.box-out{
-     height: 50px;
-     width: 500px;
-     background-color: rgb(14, 18, 236);
-     color: #fff;
-     text-align: center;
-     text-transform: uppercase;
-     margin: 0;
-     margin-top: 110px;
+.box-out {
+   height: 50px;
+   width: 500px;
+   background-color: rgb(14, 18, 236);
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 0;
+   margin-top: 110px;
 }
 
+.box-out h2 {
+   font-size: 30px;
+   font-weight: 700;
+}
 
-.box-out h2{
-    font-size: 30px;
-    font-weight: 700;
+.box-out i {
+   margin-left: 40px;
 }
-.box-out i{
-    margin-left: 40px;
-}
+
 
 /*-----------------------------------------Jordan for women--*/
 
-
-.box-women{
-     height: 50px;
-     width: 500px;
-     background-color: rgb(245, 8, 154);
-     color: #fff;
-     text-transform: uppercase;
-     text-align: center;
-     margin-top: 450px;     
+.box-women {
+   height: 50px;
+   width: 500px;
+   background-color: rgb(245, 8, 154);
+   color: #fff;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 450px;
 }
 
-
-.box-women h2{
-    font-size: 30px;
-    font-weight: 700;
+.box-women h2 {
+   font-size: 30px;
+   font-weight: 700;
 }
 
-
-.box-women i{
-    margin-left: 40px;
+.box-women i {
+   margin-left: 40px;
 }
-
 
 
 /*-----------------------------------------Jordan for kids--*/
 
-
-.box-kids{
-    height: 50px;
-     width: 500px;
-     background-color: rgb(16, 245, 8);
-     color: #fff;
-     text-transform: uppercase;
-     text-align: center;
-     margin-top: 470px;
+.box-kids {
+   height: 50px;
+   width: 500px;
+   background-color: rgb(16, 245, 8);
+   color: #fff;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 470px;
 }
 
-.box-kids h2{
-    font-size: 30px;
-    font-weight: 700;
+.box-kids h2 {
+   font-size: 30px;
+   font-weight: 700;
 }
 
-
-.box-kids i{
-    margin-left: 40px;
+.box-kids i {
+   margin-left: 40px;
 }
- 
+
 
 /*----------------------------------------------------------------------------------------------------mobile*/
-@media (max-width:991px){
 
-
-/*------------------------------------------------------------mobile-header-nav*/
-
-
-header{
-    padding: 0 20px;
+@media (max-width:991px) {
+   /*------------------------------------------------------------mobile-header-nav*/
+   header {
+      padding: 0 20px;
+   }
+   .menu-toggle {
+      display: block;
+   }
+   header nav {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 50px);
+      background: #333;
+      top: 50px;
+      left: -100%;
+      transition: 0.5s;
+   }
+   header nav.active {
+      left: 0;
+   }
+   header nav ul {
+      display: block;
+      text-align: center;
+   }
+   header nav ul li a {
+      border-bottom: 1px solid rgba(0, 0, 0, .2);
+      border-top: 1px solid rgba(0, 0, 0, .2);
+   }
+   /*------------------------------------------------------------mobile-index-pictures*/
+   .top-pic img {
+      height: 300px;
+      margin-top: 12.8%;
+   }
+   /*------------------------------------------------------------mobile-sections*/
+   .board {
+      margin-left: 25%;
+      margin-top: 20%;
+      margin-bottom: 100px;
+   }
+   section img {
+      width: 70%;
+      height: 200px;
+      border: black 3px solid;
+   }
+   .label {
+      border-radius: 70%;
+      border: solid black 3px;
+      width: 70%;
+      background-color: #fff;
+   }
+   .label h2 {
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(0, 0, 0);
+   }
+   .label h2:hover {
+      color: black;
+      text-decoration: none;
+      font-size: 40px;
+   }
+   /*------------------------------------------------------------mobile-map*/
+   .mappa {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20%;
+   }
+   .mappa h1 {
+      background-color: #fff;
+      border: black solid 2px;
+      text-align: center;
+      font-size: 25px;
+      text-transform: uppercase;
+   }
+   .bordo {
+      border: 1px black solid;
+   }
+   /*------------------------------------------------------------mobile whyJordans Page*/
+   .story {
+      margin-top: 14%;
+      margin-bottom: 14%;
+      background-color: #fff;
+      text-align: justify;
+      text-justify: inter-word;
+      border: 5px #fff solid;
+   }
+   .title {
+      color: red;
+      font-weight: 700;
+      margin-bottom: 5%;
+      font-size: 20px;
+   }
+   .par h1 {
+      padding-top: 3%;
+      font-size: 20px;
+      font-weight: 700;
+   }
+   .par p {
+      margin-bottom: 3%;
+   }
+   /*-----------------------------------------------------------mobile-contacts-Page*/
+   .signup-form {
+      background-color: rgba(60, 60, 60, .8);
+      margin-top: 70px;
+      width: 390px;
+   }
+   /*------------------------------------------------------------mobile-Jordan_in-Page*/
+   .box {
+      height: 90px;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 90px;
+   }
+   .hotshoes {
+      width: 60%;
+      margin-left: 20%;
+      margin-bottom: 13%;
+   }
+   .hotshoes h3 {
+      color: #fff;
+      background-color: rgb(177, 174, 174);
+      margin-bottom: 0px;
+   }
+   .hotshoes h2 {
+      color: #fff;
+      background-color: rgb(177, 174, 174);
+   }
+   /*------------------------------------------------------------mobile-Jordan_out-Page*/
+   /*-----------------------------------------Jordan for women--*/
+   .box-out {
+      width: 100%;
+      margin-top: 80px;
+   }
+   .box-out i {
+      margin-left: 20px;
+   }
+   .box-women {
+      clear: left;
+      width: 100%;
+   }
+   .box-women i {
+      margin-left: 20px;
+   }
+   .box-kids {
+      clear: left;
+      width: 100%;
+   }
+   .box-kids i {
+      margin-left: 20px;
+   }
+   /*-------------------------------------------------------------------mobile cards styling */
+   .container h2 {
+      font-size: 40px;
+   }
+   .card {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+   }
 }
-
-.menu-toggle{
-    display: block;
-}
-  
-header nav{
-    
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 50px);
-    background: #333;
-    top: 50px;
-    left: -100%;
-    transition: 0.5s;
-}
-
-
-header nav.active{
-    left: 0;
-}
-
-
-header nav ul{
-    display: block;
-    text-align: center;
-}
-
-
-header nav ul li a{
-  border-bottom: 1px solid rgba(0,0,0, .2); 
-  border-top: 1px solid rgba(0,0,0, .2);
-}
-
-
-
-/*------------------------------------------------------------mobile-index-pictures*/
-
-
-.top-pic img{
-    height: 300px;
-    margin-top: 12.8%;
-}
-
-
-/*------------------------------------------------------------mobile-sections*/
-
-
-.board{
-  margin-left: 25%;
-  margin-top: 20%;
-  margin-bottom: 100px;  
-}
-
-
-section img{
-  width:70%;
-  height: 200px;
-  border: black 3px solid;
-}
-
-
-
-.label{
-  border-radius: 70%;
-  border: solid black 3px;
-  width: 70%;
-  background-color: #fff;
-  
-}
-
-.label h2{
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-  
-}
-
-
-.label h2:hover{
-  color: black;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-
-
-
-
-/*------------------------------------------------------------mobile-map*/
-
-.mappa{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20%;
-}
-
-
-.mappa h1{
-  background-color: #fff;
-  border: black solid 2px;
-  text-align: center;
-  font-size: 25px;
-  text-transform: uppercase;
-}
-
-.bordo{
-    border: 1px black solid;
-}
-
-
-
-/*------------------------------------------------------------mobile whyJordans Page*/
-
-
-.story{
-    margin-top: 14%;
-    margin-bottom: 14%;
-    background-color: #fff;
-    text-align: justify;
-    text-justify: inter-word;
-    border: 5px #fff solid;
-}
-
-.title{
-    color: red;
-    font-weight: 700;
-    margin-bottom: 5%;
-    font-size: 20px;
-}
-
-.par h1 {
-    padding-top: 3%;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.par p{
-    margin-bottom: 3%;
-}
-
-
-
-
-/*-----------------------------------------------------------mobile-contacts-Page*/
-
-
-.signup-form{
-    background-color: rgba(60, 60, 60, .8);
-    margin-top: 70px;
-    width: 390px;
-}
-
-
-/*------------------------------------------------------------mobile-Jordan_in-Page*/
-
-.box{
-     height: 90px;
-     width: 100%;
-     margin: 0 auto;
-     margin-top: 90px;
-}
-
-
-.hotshoes{
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 13%;    
-}
-
-
-.hotshoes h3{
-    color: #fff;
-    background-color: rgb(177, 174, 174);
-    margin-bottom: 0px;
-}
-
-.hotshoes h2{
-    color: #fff;
-    background-color: rgb(177, 174, 174);
-}
-
-
-
-/*------------------------------------------------------------mobile-Jordan_out-Page*/
-/*-----------------------------------------Jordan for women--*/
-
-
-.box-out{
-    width: 100%;
-    margin-top: 80px;    
-}
-
-.box-out i{
-    margin-left: 20px;
-}
-
-.box-women{
-    clear: left;
-    width: 100%;
-}
-
-.box-women i{
-    margin-left: 20px;
-}
-
-
-
-.box-kids{
-    clear: left;
-    width: 100%;
-}
-
-.box-kids i{
-    margin-left: 20px;
-}
-
-
-/*-------------------------------------------------------------------mobile cards styling */
-
-.container h2{
-    font-size: 40px;
-}
-
-.card{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-   
-}
-
-
 
 
 /*--------------------------------------------------------------------------home page cards responsivity */
+
+
 /*--the cards are an adjustment of the previous homepage that was completely different (lot of empty white space)*/
 
-@media (max-width: 576px) {  
-  .xs {color:red;font-weight:bold;}
-/*----------------------------------------------------------XS--index-Page*/
- 
-.card{
-    margin-bottom: 70px;
-    height: 285px;
-}
-
-/*----------------------------------------------------------XS--Jordan_in-Page*/
-
-.box{
-    font-size: 24px;
-}
-
-.box h2{
-    font-size: 24px;
-}
-
-.box-list{
-    clear: left;
-    width: 100%;
-    height: 50px;
-    margin-bottom: 30px;
-}
-
-.box-list h2{
-    font-size: 26px;
-}
-/*----------------------------------------------------------XS--Jordan_out-Page*/
-
-.box-out h2{
-    font-size: 26px;
-}
-
-
-.box-women h2{
-    font-size: 26px;
-}
-
-
-.box-kids h2{
-    font-size: 26px;
-}
-
-
+@media (max-width: 576px) {
+   .xs {
+      color: red;
+      font-weight: bold;
+   }
+   /*----------------------------------------------------------XS--index-Page*/
+   .card {
+      margin-bottom: 70px;
+      height: 285px;
+   }
+   /*----------------------------------------------------------XS--Jordan_in-Page*/
+   .box {
+      font-size: 24px;
+   }
+   .box h2 {
+      font-size: 24px;
+   }
+   .box-list {
+      clear: left;
+      width: 100%;
+      height: 50px;
+      margin-bottom: 30px;
+   }
+   .box-list h2 {
+      font-size: 26px;
+   }
+   /*----------------------------------------------------------XS--Jordan_out-Page*/
+   .box-out h2 {
+      font-size: 26px;
+   }
+   .box-women h2 {
+      font-size: 26px;
+   }
+   .box-kids h2 {
+      font-size: 26px;
+   }
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width:768px) {  
-  .sm {color:red;font-weight:bold;}
 
-
-/*----------------------------------------------------------SM--index-Page*/
-.top-pic img{
-    margin-top: 7%;
-}
-
-.card{
-    margin-bottom: 70px;
-}
-
-/*----------------------------------------------------------SM--Jordan_in-Page*/
-
-.box-list{
-    clear: left;
-    width: 100%;
-}
-
-
-/*----------------------------------------------------------SM--contacts-Page*/
-
-.signup-form{
-    margin-top: 120px;
-    margin-bottom: 120px;
+@media (min-width: 576px) and (max-width:768px) {
+   .sm {
+      color: red;
+      font-weight: bold;
+   }
+   /*----------------------------------------------------------SM--index-Page*/
+   .top-pic img {
+      margin-top: 7%;
+   }
+   .card {
+      margin-bottom: 70px;
+   }
+   /*----------------------------------------------------------SM--Jordan_in-Page*/
+   .box-list {
+      clear: left;
+      width: 100%;
+   }
+   /*----------------------------------------------------------SM--contacts-Page*/
+   .signup-form {
+      margin-top: 120px;
+      margin-bottom: 120px;
+   }
 }
 
 
-}
- 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) and (max-width:992px) {  
- .md {color:red;font-weight:bold;}
 
-/*----------------------------------------------------------MD--index-Page*/
-.top-pic img{
-    margin-top: 6.5%;
+@media (min-width: 768px) and (max-width:992px) {
+   .md {
+      color: red;
+      font-weight: bold;
+   }
+   /*----------------------------------------------------------MD--index-Page*/
+   .top-pic img {
+      margin-top: 6.5%;
+   }
+   /*----------------------------------------------------------MD--contacts-Page*/
+   .signup-form {
+      margin-top: 200px;
+      margin-bottom: 200px;
+      height: 600px;
+   }
 }
 
-/*----------------------------------------------------------MD--contacts-Page*/
 
-.signup-form{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    height: 600px;
-}
-}
- 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1200px) { 
- .lg {color:red;font-weight:bold;}
 
-/*----------------------------------------------------------LG--contacts-Page*/
+@media (min-width: 992px) and (max-width:1200px) {
+   .lg {
+      color: red;
+      font-weight: bold;
+   }
+   /*----------------------------------------------------------LG--contacts-Page*/
+   .signup-form {
+      margin-top: 200px;
+      margin-bottom: 200px;
+      height: 700px;
+   }
+}
 
-.signup-form{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    height: 700px;
-}
-}
- 
+
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    .xl {color:red;font-weight:bold;}
 
-
+@media (min-width: 1200px) {
+   .xl {
+      color: red;
+      font-weight: bold;
+   }
 }
