@@ -11,9 +11,9 @@ memories or anniversary of the NBA or Michael Jordan himself.
 
 ## Installation
 
-In the head of the project I have installed the links to have access to different ![libraries](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/jordans-head.png?raw=true)
+In the head of the project I have installed the links to have access to different ![libraries](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordans-head.png?raw=true)
 1. Bootstap 4: a library with templates for buttons, form or other components. For this project I use it to build the responsive navigation bar.
-1. Font Awesome: is an icon library. I use this library for the flames in the jordan_in page for example ![flames](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/jordans-icon.png?raw=true)
+1. Font Awesome: is an icon library. I use this library for the flames in the jordan_in page for example ![flames](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordans-icon.png?raw=true)
 1. Cdnjs is a Javascript library and below the external link to the style.css file.
 
 
@@ -33,10 +33,10 @@ In the contact us page we dedicate a space to our customer to expose ideas regar
 
 ## UX
 The CSS file is divided by comments, that I used as title to separate the pages.
-This make any future correction or research much easier ![css](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/myfolder/pictures/jordan-css.png)
-And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/jordan-mob.png?raw=true)
+This make any future correction or research much easier.
+And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordan-mob.png?raw=true)
 
-For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/html.png?raw=true)
+For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/html.png?raw=true)
 Every element built, has a comment explaining the reasons and the source of that code
 
 ### Users
@@ -86,7 +86,7 @@ The project still presenting 2 little bugs in the contacs.html page:
 1. the form is not having regular margin-bottom on all screen sizes despite I made lot of tentatives
 
 The site was also tested through different browser (Mozilla Firefox, Google Chrome and Internet Explorer) and different screen sizes
-![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/documentation/screens.png?raw=true)
+![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/screens.png?raw=true)
 
 ## Deployment
 
