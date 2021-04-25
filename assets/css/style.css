@@ -84,7 +84,7 @@ header nav ul li a:hover {
 .top-pic img {
    height: 450px;
    width: 100%;
-   margin-top: 3.7%;
+   margin-top: 50px;   
    /*--to don't have the top part of the image covered by the navbar--*/
 }
 
@@ -422,7 +422,6 @@ img {
    /*------------------------------------------------------------mobile-index-pictures*/
    .top-pic img {
       height: 300px;
-      margin-top: 12.8%;
    }
    /*------------------------------------------------------------mobile-sections*/
    .board {
@@ -564,6 +563,9 @@ img {
       font-weight: bold;
    }
    /*----------------------------------------------------------XS--index-Page*/
+   .top-pic img {
+      margin-top: 50px;
+   }
    .card {
       margin-bottom: 70px;
       height: 285px;
@@ -606,7 +608,7 @@ img {
    }
    /*----------------------------------------------------------SM--index-Page*/
    .top-pic img {
-      margin-top: 7%;
+      margin-top: 50px;
    }
    .card {
       margin-bottom: 70px;
@@ -633,7 +635,7 @@ img {
    }
    /*----------------------------------------------------------MD--index-Page*/
    .top-pic img {
-      margin-top: 6.5%;
+      margin-top: 50px;
    }
    /*----------------------------------------------------------MD--contacts-Page*/
    .signup-form {
