@@ -49,7 +49,7 @@ The wireframes have been built using the Balsamiq Cloud service.
 All wireframes can be found [here](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes.md)  
  
 For individual files, please click the desired page:
-  * [Homepage](https://github.com/OmarBedawi/Jordans/trees/master/readme_files/wireframes_images/1.homepage.png)
+  * [Homepage](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/1.homepage.png)
   * [Indoor Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/2.indoor_page.png)
   * [Outdoor Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/3.outdoor_page.png)
   * [Why Jordan Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/4.why_jordan_page.png)
