@@ -43,6 +43,24 @@ Every element built, has a comment explaining the reasons and the source of that
 We are expecting users of any age, not with the mandatory to be a basketball fan but only pleasure for nice shoes.
 
 
+### Wireframes
+The wireframes have been built using the Balsamiq Cloud service.
+
+All wireframes can be found [here](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes.md)  
+ 
+For individual files, please click the desired page:
+  * [Homepage](https://github.com/OmarBedawi/Jordans/trees/master/readme_files/wireframes_images/1.homepage.png)
+  * [Indoor Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/2.indoor_page.png)
+  * [Outdoor Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/3.outdoor_page.png)
+  * [Why Jordan Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/4.why_jordan_page.png)
+  * [Contact Page](https://github.com/OmarBedawi/Jordans/tree/master/readme_files/wireframes_images/5.contact_page.png)
+
+
+  Please note that these wireframes may not match the finished product. 
+  
+  Some elements may be moved or changed based on feedback or styling issues discovered during development.
+
+
 
 ## Technologies Used
 
