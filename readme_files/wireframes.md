@@ -14,16 +14,16 @@ Here below the screenshots of my wireframes are displayed.
 
 
 ## Indoor Page
-![Indoor](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/2.register_page.png)
+![Indoor](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/2.indoor_page.png)
 
 
 ## Outdoor Page
-![Outdoor](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/3.login_page.png)
+![Outdoor](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/3.outdoor_page.png)
 
 
 ## Why Jordan Page
-![Why Jordan](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/4.ebook_page.png)
+![Why Jordan](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/4.why_jordan_page.png)
 
 
 ## Contact Page
-![Contact](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/5.ebook_detail_page.png)
+![Contact](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/readme_files/wireframes_images/5.contact_page.png)
