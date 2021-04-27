@@ -46,15 +46,18 @@ Every element built, has a comment explaining the reasons and the source of that
         1. As a First Time Visitor, I want to easily understand the main purpose of the site.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the application to find content.
         3. As a First Time Visitor, I want to be able to easily navigate through a wide choice of products.
-        4. As a First Time Visitor, I want to easily be able to find a contact page and be able to be in touch with the store owner.
-        
+  
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to easily be able to navigate the site from different devices (laptop, tablet or mobile phone).
+        2. As a Returning Visitor, I want to be able to easily find a contact page and be in touch with the store staff.
 
     -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to have easy and fast access to the shoe informations.
-        2. As a Frequent User, I want to check if periodically there are new shoe model on sale on the site.
+        1. As a Frequent User, I want to have easy and fast access to the product informations.
+        2. As a Frequent User, I want to check if periodically there are new shoes on sale on the site.
         3. As a Frequent User, I want to check if there are any newly added function or content.
-        4. As a Frequent User, I want to check if there is a subscription service available to inform users about new product on sale.
 
 
 ### Wireframes
@@ -108,8 +111,56 @@ This project makes use of:
 
 ## Testing
 
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+
+        1. Upon entering the site, users are greeted with a clean and easily readable navigation bar (or sidenav for screens smaller than 991px) to go to the page of their choice. 
+        2. The homepage is composed by two wallpapers representing Jordan shoes collection.
+        3. The new user can find in the homepage different Jordan shoes on sale as preview of the two sale sections (Jordan Indoor and Jordan Outdoor) .
+
+
+
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the application to find content.
+
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. The logo is always directing the user to the homepage and is always available thanks to the fixed navbar.
+        3. The links in the navbar have a background of a shade of orange when the user hover the mouse over them.
+        
+        
+    3. As a First Time Visitor, I want to be able to easily navigate through a wide choice of products.
+        1. When the user enter the website is already welcomed with many shoe models prior to enter the Jordan indoor or Jordan outdoor section.
+        2. When the user enter the Jordan Indoor section, can find the top shoes of the moment at the top of the page and the rest of the collection displayed below.
+        3. When the user enter the Jordan Outdoor page, can find this section divided in three areas: men, women and kids.
+
+
+-   #### Returning Visitor Goals
+        
+    1. As a Returning Visitor, I want to easily be able to navigate the site from different devices (laptop, tablet or mobile phone).
+        1. The user can have a comfortable navigation with any kind of device because the website is very responsive at every screen size.
+
+    
+    2. As a Returning Visitor, I want to be able to easily find a contact page and be in touch with the store staff.
+        1. When the user looks at the fixed navbar, he can easily find the link "Contact Us". The "Contact Us" page give to the user the opportunity to personalize his own shoes and send his idea to the Jordans staff.
+
+
+-   #### Frequent Visitor Goals
+        
+    1. As a Frequent User, I want to have easy and fast access to the product informations.
+        1. When the user navigates through the products on sale, he can easily have a view of the picture of the shoes, the model name and the price.
+
+    2. As a Frequent User, I want to check if periodically there are new shoes on sale on the site.
+        1. The user can periodically check about new Jordans release on the official Michael Jordan page. Once a new model is released, it will be available on the Jordans website.
+
+    3. As a Frequent User, I want to check if there are any newly added function or content.
+        1. The user would be already comfortable with the website layout.
+         
+
+
 The site was tested through the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) for Html and Css.
-I had to correct an error in the <header>. Was about a <div> nested in <ul>.
+I had to correct an error in the header. Was about a div nested in ul.
 
 The validator still call as an error some of the classes regarding the map section.
 
@@ -151,6 +202,12 @@ The benefits of hosting your website on GitHub pages is that any pushed changes 
 It may take a moment for changes to appear on the hosted website.
 
 During development the site is written in Gitpod.
+
+
+## Disclaimer
+
+This web page was created for educational purposes only.
+
 
 ### Acknowledgements
 Thank you to the following for inspiration, motivation and the direction I needed:
