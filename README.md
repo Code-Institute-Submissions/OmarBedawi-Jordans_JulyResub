@@ -39,8 +39,22 @@ And I did the same for the mobile and other screen sizes ![css2](https://raw.git
 For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/html.png?raw=true)
 Every element built, has a comment explaining the reasons and the source of that code
 
-### Users
-We are expecting users of any age, not with the mandatory to be a basketball fan but only pleasure for nice shoes.
+-   ### User Stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the application to find content.
+        3. As a First Time Visitor, I want to be able to easily navigate through a wide choice of products.
+        4. As a First Time Visitor, I want to easily be able to find a contact page and be able to be in touch with the store owner.
+        
+
+    -   #### Frequent User Goals
+
+        1. As a Frequent User, I want to have easy and fast access to the shoe informations.
+        2. As a Frequent User, I want to check if periodically there are new shoe model on sale on the site.
+        3. As a Frequent User, I want to check if there are any newly added function or content.
+        4. As a Frequent User, I want to check if there is a subscription service available to inform users about new product on sale.
 
 
 ### Wireframes
