@@ -167,7 +167,7 @@ footer {
 
 
 /*------------------------------------------------------------map*/
-
+/*
 .mappa {
    margin-top: 10%;
    margin-bottom: 7%;
@@ -183,7 +183,28 @@ footer {
 
 .bordo {
    border: 1px black solid;
+}*/
+
+.mapTitle {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "sans-serif", cursive;
+    display: inline-block;
+    font-weight: 700;
+    width: 100%;
 }
+
+#map {
+    margin-top: 15px;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 300px;
+    border: 1px solid black;
+}
+
 
 
 /*------------------------------------------------------------whyJordans Page*/

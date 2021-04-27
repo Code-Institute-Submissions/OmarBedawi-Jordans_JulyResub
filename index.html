@@ -31,15 +31,9 @@
             <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
             </div>
         </header>
-        <!--I set this picture at the top of my home page right after my nav bar to give to the users an immediate 
-            visual impact of what we are selling.
-            In this case I choose the line of Jordan shoes, starting from the 1st one, created in the 1985---> 
         <div class="top-pic mt-0 pt-0">
             <img src="https://i.pinimg.com/originals/97/de/cd/97decda7b690b95269b66afe46a254b5.jpg" alt="index top-pic">
         </div>
-        <!--jordan indoor. I set a series of cards with shoes picture, price and name model to decorate the home page and at 
-            the same time to tempt the user, who can eventually look for more products with link below the cards.
-            I create the responsive cards using the library "codepen.io"--->
         <div class="container">
             <h2>Jordan Indoor</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
@@ -103,16 +97,10 @@
                 <h4>View more Jordans...</h4>
             </a>
         </div>
-        <!--This pictures has the same meaning of the one on the top the page.
-            But in this case is a real home colletion of the line Jordans
-            I use it also to give a visual break between the indoor and outdoor sections-->  
         <div class="mid-pic">
             <img src="https://i.pinimg.com/originals/9b/15/21/9b1521dab017c29166cc966386e563d0.jpg"
                 alt="mid-pic_1">
         </div>
-        <!--jordan outdoor.
-            This section is built with the same concept of the indoor shoes but the products are intended also for ladies or
-            young kids--> 
         <div class="container">
             <h2>Jordan Outdoor</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
@@ -177,13 +165,10 @@
             </a>
         </div>
         <!--Location Map-->
-        <!--I create a map using the tool maps.ie 
-            ----I set a random address in the city where I live (Amsterdam)-->
-        <div id="mappe" class="mappa">
+        <div class="mapTitle">
             <h1>we are here!</h1>
-            <div class="bordo" style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.3700685, 4.8913987&amp;q=kalverstraat%2097%2C%20amsterdam+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/draw-radius-circle-map">Radius map tool</a></iframe></div>
-            <br />
         </div>
+        <div id="map"></div>
         <!--I built a very simple footer. 
             I just took example from the repos we did during the course with placing some social-network icons-->     
         <footer>
@@ -218,5 +203,10 @@
             })
             })
         </script>
+        <!--Google Maps Platform link and below the API key -->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmklKbC_gdWjWuRWThDoG4zj_Wu2-fuT0&callback=initMap"></script>
+        <!--Javascript file sources for map-->
+        <script src="assets/js/maps.js"></script>
     </body>
 </html>
