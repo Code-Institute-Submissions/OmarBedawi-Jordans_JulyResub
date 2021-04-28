@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:100,200,300,400,500,600,700|Mukta:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;800;900&display=swap');
+
+/*--font-family: 'Sansita Swashed', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*--font-family: 'Roboto', sans-serif;*/
 body {
    height: 100%;
    margin: 0;
    padding: 0;
-   font-family: "Balsamic", sans-serif;
+   font-family: "Lato", Roboto;
    background-color: rgba(121, 195, 255, .2);
 }
 
@@ -167,24 +173,6 @@ footer {
 
 
 /*------------------------------------------------------------map*/
-/*
-.mappa {
-   margin-top: 10%;
-   margin-bottom: 7%;
-   margin-left: auto;
-   margin-right: auto;
-   width: 70%;
-}
-
-.mappa h1 {
-   text-transform: uppercase;
-   text-align: center;
-}
-
-.bordo {
-   border: 1px black solid;
-}*/
-
 .mapTitle {
     font-size: 30px;
     text-transform: uppercase;
