@@ -211,6 +211,19 @@ During development the site is written in Gitpod.
 
 This web page was created for educational purposes only.
 
+## Note
+
+This is a re-submission of the User Centric Milestone Project.
+Following the negative feedbacks of the assessment I paid attention to:
+
+* User Stories
+* Wireframes
+* Testing
+* Replace broken pictures
+* Remove map link from navbar/make  navbar don't change across pages 
+* Code a new map
+* Fix margin/padding issues
+
 
 ### Acknowledgements
 Thank you to the following for inspiration, motivation and the direction I needed:
