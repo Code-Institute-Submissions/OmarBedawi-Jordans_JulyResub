@@ -28,16 +28,16 @@ In our pages you can find shoes for players, but also for who want to wear a pai
 
 The WhyJordan page is explaining why the Jordans are so competitive on the market and some info on Michael Jordan.
 
-In the contact us page we dedicate a space to our customer to expose ideas regarding any customization of Jordan shoes
+In the contact us page we dedicate a space to our customer to expose ideas regarding any customization of Jordan shoes.
+
+At the end of the homepage I have added a google map provided by Google service. I set a random address in the city where I live (Amsterdam)
 
 
 ## UX
-The CSS file is divided by comments, that I used as title to separate the pages.
+The CSS file is divided by comments, that I used as title to separate the code of every page.
 This make any future correction or research much easier.
 And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordan-mob.png?raw=true)
 
-For the Html files has been the same ![html](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/html.png?raw=true)
-Every element built, has a comment explaining the reasons and the source of that code
 
 -   ### User Stories
 
@@ -81,33 +81,38 @@ For individual files, please click the desired page:
 
 ## Technologies Used
 
+### Languages
 This project makes use of:
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    - HTML for strucutre
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    - CSS for Styling
-- [JavaScript](https://www.w3schools.com/jsref/)
-    - **JavaScript** for application controller
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-- [Google Chrome](https://www.google.com/chrome/)
-    - Used for browser and dev tools
-- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
-    - Used for browser and dev tools
-- [Google](https://www.google.com/)
-    - **Google** was used for research.
-- [Bootstrap](https://getbootstrap.com/)
-    - HTML and CSS Framework from **Bootstrap**
-    - This project was built using the **Gitpod** IDE
-- [Git](https://git-scm.com/)
-    - **Git** used for Version Control
-- [GitHub](https://github.com/)
-    - Repository hosted on **GitHub**
-- [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/)
-    - Website hosted on **Github Pages**
+* [HTML] - Base language for this project.
+* [CSS] - Used for Styling the HTML code
+* [JavaScript] - Used to make the web app interactive.
 
+### Libraries    
+* [Bootstrap](https://getbootstrap.com/) - Used for responsive navbar, for the menu page, the form and the cards.
+* [JQuery](https://jquery.com/) - The project uses **JQuery** to simplify DOM manipulation.
+* [FontAwseome](https://fontawesome.com/) - Used for all the icons on the site.
+* [Google Fonts](https://fonts.google.com/) - Used for the 'Lato' and 'Roboto' fonts.
 
+### API
+* [Google Cloud Platform](https://console.cloud.google.com/) - Used to display a map provided by Google service, to show the shop location.
 
+### TOOLS
+
+* [Google Chrome] - Used for browser and dev tools
+* [Mozilla Firefox] - Used for browser and dev tools
+* [Microsoft Edge] - Used for browser and dev tools
+* [Google] - **Google** was used for research.
+* [Balsamiq Cloud](https://balsamiq.cloud/) - Used for creation of wireframes.
+* [Gitpod](https://www.gitpod.io/) - Used as IDE for this project.
+* [Git](https://git-scm.com/) - Used for Version Control
+* [GitHub](https://github.com/) - Used to host repository and live website.
+* [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/) - Website hosted on **Github Pages**
+* [Am I Responsive](http://ami.responsivedesign.is/) - Used for testing purposes as well as creating the image to display the web pages on different devices.
+* [W3 Html validator](https://validator.w3.org/) - Used to test and validate my html code.
+* [W3 Css validator](https://jigsaw.w3.org/) - Used to test and validate my css code.
+* [JSHint](https://jshint.com/) - Used to validate my Javascript code.
+* [Color Scheme Designer](http://colorschemedesigner.com/) - Used to test colour combinations.
+* [Free Formatter](https://www.freeformatter.com/) - Used to format my html, css and javascript code.
 
 ## Testing
 
@@ -157,18 +162,16 @@ This project makes use of:
     3. As a Frequent User, I want to check if there are any newly added function or content.
         1. The user would be already comfortable with the website layout.
          
-
+## Bugs
 
 The site was tested through the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) for Html and Css.
-I had to correct an error in the header. Was about a div nested in ul.
-
-The validator still call as an error some of the classes regarding the map section.
+I had to correct an error in the header. Was about a div nested in a ul.
 
 The project still presenting 2 little bugs in the contacs.html page: 
 1. in the form, the "Describe your shoes" area has the cursor not align at the top but in the middle
 1. the form is not having regular margin-bottom on all screen sizes despite I made lot of tentatives
 
-The site was also tested through different browser (Mozilla Firefox, Google Chrome and Internet Explorer) and different screen sizes
+The site was also tested through different browser (Mozilla Firefox, Google Chrome and Microsoft Edge) and different screen sizes
 ![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/screens.png?raw=true)
 
 ## Deployment
