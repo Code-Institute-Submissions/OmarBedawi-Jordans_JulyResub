@@ -68,8 +68,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: black;
-    background-color: orange;
+    color: white;
+    background-color: rgb(10, 43, 150);
     text-decoration: none;
 }
 
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .card-text:hover {
-    background-color: rgb(228, 224, 25);
+    background-color: rgb(95, 99, 102);
     color: #fff;
 }
 
@@ -302,7 +302,7 @@ footer {
 }
 
 .hotshoes h2:hover {
-    background-color: rgb(228, 224, 25);
+    background-color: rgb(95, 99, 102);
     color: #fff;
 }
 
