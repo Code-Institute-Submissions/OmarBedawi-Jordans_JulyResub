@@ -55,7 +55,7 @@ And I did the same for the mobile and other screen sizes ![css2](https://raw.git
 
     -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to have easy and fast access to the product informations.
+        1. As a Frequent User, I want to have easy and fast access to the product details.
         2. As a Frequent User, I want to check if periodically there are new shoes on sale on the site.
         3. As a Frequent User, I want to check if there are any newly added function or content.
 
@@ -111,7 +111,7 @@ This project makes use of:
 * [W3 Html validator](https://validator.w3.org/) - Used to test and validate my html code.
 * [W3 Css validator](https://jigsaw.w3.org/) - Used to test and validate my css code.
 * [JSHint](https://jshint.com/) - Used to validate my Javascript code.
-* [Color Scheme Designer](http://colorschemedesigner.com/) - Used to test colour combinations.
+* [Color Scheme Designer](http://colorschemedesigner.com/) - Used to test color combinations.
 * [Free Formatter](https://www.freeformatter.com/) - Used to format my html, css and javascript code.
 
 ## Testing
@@ -153,7 +153,7 @@ This project makes use of:
 
 -   #### Frequent Visitor Goals
         
-    1. As a Frequent User, I want to have easy and fast access to the product informations.
+    1. As a Frequent User, I want to have easy and fast access to the product details.
         1. When the user navigates through the products on sale, he can easily have a view of the picture of the shoes, the model name and the price.
 
     2. As a Frequent User, I want to check if periodically there are new shoes on sale on the site.
@@ -169,7 +169,7 @@ I had to correct an error in the header. Was about a div nested in a ul.
 
 The project still presenting 2 little bugs in the contacs.html page: 
 1. in the form, the "Describe your shoes" area has the cursor not align at the top but in the middle
-1. the form is not having regular margin-bottom on all screen sizes despite I made lot of tentatives
+1. the form is not having regular margin-bottom on all screen sizes despite I made lot of attempts
 
 The site was also tested through different browser (Mozilla Firefox, Google Chrome and Microsoft Edge) and different screen sizes
 ![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/screens.png?raw=true)
@@ -213,14 +213,12 @@ This web page was created for educational purposes only.
 
 ## Note
 
-This is a re-submission of the User Centric Milestone Project.
-Following the negative feedbacks of the assessment I paid attention to:
+Following some professional feedback I paid more attention to improve:
 
 * User Stories
 * Wireframes
 * Testing
 * Replace broken pictures
-* Remove map link from navbar/make  navbar don't change across pages 
 * Code a new map
 * Fix margin/padding issues
 
