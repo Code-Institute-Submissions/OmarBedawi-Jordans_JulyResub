@@ -141,6 +141,10 @@ a:hover {
     color: #fff;
 }
 
+.card img {
+    height: 160px;
+}
+
 
 /*------------------------------------------------------------footer*/
 
@@ -291,8 +295,8 @@ footer {
 
 .hotshoes {
     float: left;
-    width: 20%;
-    margin-left: 10%;
+    width: 13%;
+    margin-left: 15%;
     margin-bottom: 5%;
     margin-top: 6%;
 }
@@ -316,7 +320,7 @@ img {
     width: 600px;
     background-color: rgb(62, 233, 27);
     color: rgb(255, 251, 0);
-    margin-top: 390px;
+    margin-top: 410px;
     margin-left: auto;
     margin-right: auto;
     font-size: 35px;
@@ -326,6 +330,7 @@ img {
 .box-list h2 {
     text-transform: uppercase;
     font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -342,7 +347,7 @@ img {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    margin-top: 110px;
+    margin-top: 120px;
 }
 
 .box-out h2 {
@@ -364,7 +369,7 @@ img {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 450px;
+    margin-top: 470px;
 }
 
 .box-women h2 {
@@ -590,6 +595,10 @@ img {
     .box-kids h2 {
         font-size: 26px;
     }
+    .hotshoes {
+        width: 30%;
+        margin-left: 35%;
+    }    
 }
 
 
@@ -612,7 +621,11 @@ img {
         clear: left;
         width: 100%;
     }
-    /*----------------------------------------------------------SM--contacts-Page*/
+    .hotshoes {
+        width: 30%;
+        margin-left: 35%;
+    }    
+/*----------------------------------------------------------SM--contacts-Page*/
     .signup-form {
         margin-top: 120px;
         margin-bottom: 120px;
@@ -633,7 +646,7 @@ img {
     }
     /*--------------------------------------------------MD--Jordan in and out*/
     .hotshoes {
-        width: 300px;
+        width: 260px;
         float: none;
         margin-left: auto;
         margin-right: auto;
