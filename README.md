@@ -7,6 +7,7 @@ Jordans website has two main tasks:
 This website is suitable to who is looking for special edition like the retros or the ones dedicated to special events or 
 memories or anniversary of the NBA or Michael Jordan himself.
 
+To see the website in action just click this [link](https://omarbedawi.github.io/Jordans/).
 
 
 ## Installation
@@ -207,13 +208,28 @@ It may take a moment for changes to appear on the hosted website.
 During development the site is written in Gitpod.
 
 
+## Credit
+
+### Code
+* Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
+* README structure borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
+
+### Content
+
+-   All content was written by the developer
+
+### Media
+
+* All the shoe images used in the project have been borrowed by the website [nike.com Jordan section](https://www.nike.com/nl/en/jordan/).
+* The two large images of the index page are coming from google research.
+
 ## Disclaimer
 
 This web page was created for educational purposes only.
 
 ## Note
 
-Following some professional feedback I paid more attention to improve:
+Following some feedback I paid more attention to improve:
 
 * User Stories
 * Wireframes
