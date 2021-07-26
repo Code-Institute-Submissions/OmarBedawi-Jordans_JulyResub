@@ -85,17 +85,14 @@ header nav ul li a:hover {
 
 /*------------------------------------------------------------index-pictures*/
 
+
 /*---I used these 2 pictures to decorate the homepage. I named the classes, using their position in the page---*/
 
-.top-pic img {/*
-    height: 450px;*/
-    width: 100%;/*
-    margin-top: 50px;*/
-    /*--to don't have the top part of the image covered by the navbar--*/
+.top-pic img {
+    width: 100%;
 }
 
-.mid-pic img {/*
-    height: 450px;*/
+.mid-pic img {
     width: 100%;
 }
 
@@ -139,10 +136,6 @@ a:hover {
     background-color: rgb(95, 99, 102);
     color: #fff;
 }
-/*
-.card img {
-    height: 160px;
-}*/
 
 
 /*------------------------------------------------------------footer*/
@@ -172,7 +165,8 @@ footer {
 }
 
 .socialnet :hover {
-    color: rgb(10, 43, 150);;
+    color: rgb(10, 43, 150);
+    ;
 }
 
 
@@ -407,7 +401,7 @@ img {
 /*----------------------------------------------------------------------------------------------------mobile*/
 
 @media (max-width:991px) {
-/*------------------------------------------------------------mobile-header-nav*/
+    /*------------------------------------------------------------mobile-header-nav*/
     header {
         padding: 0 20px;
     }
@@ -434,10 +428,6 @@ img {
         border-bottom: 1px solid rgba(0, 0, 0, .2);
         border-top: 1px solid rgba(0, 0, 0, .2);
     }
-    /*------------------------------------------------------------mobile-index-pictures*/
-    .top-pic img /*{
-        height: 300px;
-    }*/
     /*------------------------------------------------------------mobile-sections*/
     .board {
         margin-left: 25%;
@@ -465,7 +455,6 @@ img {
         text-decoration: none;
         font-size: 40px;
     }
-    
     /*------------------------------------------------------------mobile whyJordans Page*/
     .story {
         margin-top: 14%;
@@ -543,8 +532,7 @@ img {
     .container h2 {
         font-size: 40px;
     }
-    .card {/*
-        width: 40%;*/
+    .card {
         margin-left: auto;
         margin-right: auto;
     }
@@ -566,8 +554,7 @@ img {
         margin-top: 50px;
     }
     .card {
-        margin-bottom: 70px;/*
-        height: 285px;*/
+        margin-bottom: 70px;
         width: 50%;
     }
     /*----------------------------------------------------------XS--Jordan_in-Page*/
@@ -599,7 +586,7 @@ img {
     .hotshoes {
         width: 50%;
         margin-left: 25%;
-    }    
+    }
 }
 
 
@@ -610,11 +597,6 @@ img {
         color: red;
         font-weight: bold;
     }
-    /*----------------------------------------------------------SM--index-Page*/
-    /*
-    .top-pic img {
-        margin-top: 50px;
-    }*/
     .card {
         margin-bottom: 70px;
     }
@@ -626,8 +608,8 @@ img {
     .hotshoes {
         width: 50%;
         margin-left: 25%;
-    }    
-/*----------------------------------------------------------SM--contacts-Page*/
+    }
+    /*----------------------------------------------------------SM--contacts-Page*/
     .signup-form {
         margin-top: 120px;
         margin-bottom: 120px;
@@ -641,10 +623,6 @@ img {
     .md {
         color: red;
         font-weight: bold;
-    }
-    /*----------------------------------------------------------MD--index-Page*/
-    .top-pic img {
-        margin-top: 50px;
     }
     /*--------------------------------------------------MD--Jordan in and out*/
     .hotshoes {
@@ -684,22 +662,10 @@ img {
         margin-bottom: 200px;
         height: 700px;
     }
-        
     /*----------------------------------------------------------LG--Jordan_in-Page*/
-
     .hotshoes {
         width: 18%;
         float: left;
         margin-left: 11.5%;
-    }
-}
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-    .xl {
-        color: red;
-        font-weight: bold;
     }
 }
