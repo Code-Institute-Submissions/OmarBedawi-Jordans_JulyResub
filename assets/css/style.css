@@ -85,26 +85,17 @@ header nav ul li a:hover {
 
 /*------------------------------------------------------------index-pictures*/
 
-.top_pic img {
-    background-image: url('images/shoe_pictures/index1.jpg');
-    height: 80%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 /*---I used these 2 pictures to decorate the homepage. I named the classes, using their position in the page---*/
 
-.top-pic img {
-    height: 450px;
-    width: 100%;
-    margin-top: 50px;
+.top-pic img {/*
+    height: 450px;*/
+    width: 100%;/*
+    margin-top: 50px;*/
     /*--to don't have the top part of the image covered by the navbar--*/
 }
 
-.mid-pic img {
-    height: 450px;
+.mid-pic img {/*
+    height: 450px;*/
     width: 100%;
 }
 
@@ -181,7 +172,7 @@ footer {
 }
 
 .socialnet :hover {
-    color: orange;
+    color: rgb(10, 43, 150);;
 }
 
 
@@ -303,8 +294,8 @@ footer {
 
 .hotshoes {
     float: left;
-    width: 13%;
-    margin-left: 15%;
+    width: 18%;
+    margin-left: 11.5%;
     margin-bottom: 5%;
     margin-top: 6%;
 }
@@ -328,7 +319,7 @@ img {
     width: 600px;
     background-color: rgb(62, 233, 27);
     color: rgb(255, 251, 0);
-    margin-top: 410px;
+    margin-top: 520px;
     margin-left: auto;
     margin-right: auto;
     font-size: 35px;
@@ -339,6 +330,7 @@ img {
     text-transform: uppercase;
     font-weight: 600;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    position: inherit;
 }
 
 
@@ -377,7 +369,7 @@ img {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 470px;
+    margin-top: 550px;
 }
 
 .box-women h2 {
@@ -399,7 +391,7 @@ img {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 470px;
+    margin-top: 550px;
 }
 
 .box-kids h2 {
@@ -443,9 +435,9 @@ img {
         border-top: 1px solid rgba(0, 0, 0, .2);
     }
     /*------------------------------------------------------------mobile-index-pictures*/
-    .top-pic img {
+    .top-pic img /*{
         height: 300px;
-    }
+    }*/
     /*------------------------------------------------------------mobile-sections*/
     .board {
         margin-left: 25%;
@@ -551,8 +543,8 @@ img {
     .container h2 {
         font-size: 40px;
     }
-    .card {
-        width: 40%;
+    .card {/*
+        width: 40%;*/
         margin-left: auto;
         margin-right: auto;
     }
@@ -576,6 +568,7 @@ img {
     .card {
         margin-bottom: 70px;/*
         height: 285px;*/
+        width: 50%;
     }
     /*----------------------------------------------------------XS--Jordan_in-Page*/
     .box {
@@ -604,8 +597,8 @@ img {
         font-size: 26px;
     }
     .hotshoes {
-        width: 30%;
-        margin-left: 35%;
+        width: 50%;
+        margin-left: 25%;
     }    
 }
 
@@ -618,9 +611,10 @@ img {
         font-weight: bold;
     }
     /*----------------------------------------------------------SM--index-Page*/
+    /*
     .top-pic img {
         margin-top: 50px;
-    }
+    }*/
     .card {
         margin-bottom: 70px;
     }
@@ -630,8 +624,8 @@ img {
         width: 100%;
     }
     .hotshoes {
-        width: 30%;
-        margin-left: 35%;
+        width: 50%;
+        margin-left: 25%;
     }    
 /*----------------------------------------------------------SM--contacts-Page*/
     .signup-form {
@@ -654,7 +648,7 @@ img {
     }
     /*--------------------------------------------------MD--Jordan in and out*/
     .hotshoes {
-        width: 260px;
+        width: 40%;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -689,6 +683,14 @@ img {
         margin-top: 200px;
         margin-bottom: 200px;
         height: 700px;
+    }
+        
+    /*----------------------------------------------------------LG--Jordan_in-Page*/
+
+    .hotshoes {
+        width: 18%;
+        float: left;
+        margin-left: 11.5%;
     }
 }
 
