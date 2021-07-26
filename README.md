@@ -16,7 +16,7 @@ To see the website in action just click this [link](https://omarbedawi.github.io
 
 ## Installation
 
-In the head of the project I have installed the links to have access to different ![libraries](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/jordans-head.png?raw=true)
+In the head of the project I have installed the links to have access to different libraries. ![libraries](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/jordans-head.png?raw=true)
 1. Bootstap 4: a library with templates for buttons, form or other components. For this project I use it to build the responsive navigation bar.
 1. Font Awesome: is an icon library. I use this library for the flames in the jordan_in page for example ![flames](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/jordans-icon.png?raw=true)
 1. Cdnjs is a Javascript library and below the external link to the style.css file.
@@ -111,7 +111,6 @@ This project makes use of:
 * [Gitpod](https://www.gitpod.io/) - Used as IDE for this project.
 * [Git](https://git-scm.com/) - Used for Version Control
 * [GitHub](https://github.com/) - Used to host repository and live website.
-* [Github Pages](https://pattern-projects.github.io/oireachtas-ifd-project/) - Website hosted on **Github Pages**
 * [Am I Responsive](http://ami.responsivedesign.is/) - Used for testing purposes as well as creating the image to display the web pages on different devices.
 * [W3 Html validator](https://validator.w3.org/) - Used to test and validate my html code.
 * [W3 Css validator](https://jigsaw.w3.org/) - Used to test and validate my css code.
@@ -128,7 +127,7 @@ This project makes use of:
     1. As a First Time Visitor, I want to easily understand the main purpose of the site.
 
         1. Upon entering the site, users are greeted with a clean and easily readable navigation bar (or sidenav for screens smaller than 991px) to go to the page of their choice. 
-        2. The homepage is composed by two wallpapers representing Jordan shoes collection.
+        2. The homepage is composed by two wallpapers representing Jordan shoes collection and trophies.
         3. The new user can find in the homepage different Jordan shoes on sale as preview of the two sale sections (Jordan Indoor and Jordan Outdoor) .
 
 
