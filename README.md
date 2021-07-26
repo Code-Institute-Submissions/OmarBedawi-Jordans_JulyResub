@@ -1,5 +1,9 @@
 # Jordans
 
+
+![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/screens.png?raw=true)
+
+
 Jordans website has two main tasks:
 1. to be among the firsts, to put on market the latest and the Limited Edition shoes coming out from the Jordan Brand House
 1. to have a variety of products to satisfy different categories and ages
@@ -12,9 +16,9 @@ To see the website in action just click this [link](https://omarbedawi.github.io
 
 ## Installation
 
-In the head of the project I have installed the links to have access to different ![libraries](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordans-head.png?raw=true)
+In the head of the project I have installed the links to have access to different ![libraries](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/jordans-head.png?raw=true)
 1. Bootstap 4: a library with templates for buttons, form or other components. For this project I use it to build the responsive navigation bar.
-1. Font Awesome: is an icon library. I use this library for the flames in the jordan_in page for example ![flames](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordans-icon.png?raw=true)
+1. Font Awesome: is an icon library. I use this library for the flames in the jordan_in page for example ![flames](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/jordans-icon.png?raw=true)
 1. Cdnjs is a Javascript library and below the external link to the style.css file.
 
 
@@ -37,7 +41,7 @@ At the end of the homepage I have added a google map provided by Google service.
 ## UX
 The CSS file is divided by comments, that I used as title to separate the code of every page.
 This make any future correction or research much easier.
-And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/jordan-mob.png?raw=true)
+And I did the same for the mobile and other screen sizes ![css2](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/jordan-mob.png?raw=true)
 
 
 -   ### User Stories
@@ -173,7 +177,7 @@ The project still presenting 2 little bugs in the contacs.html page:
 1. the form is not having regular margin-bottom on all screen sizes despite I made lot of attempts
 
 The site was also tested through different browser (Mozilla Firefox, Google Chrome and Microsoft Edge) and different screen sizes
-![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/images/screens.png?raw=true)
+![here](https://raw.githubusercontent.com/OmarBedawi/Jordans/master/assets/images/screens.png?raw=true)
 
 ## Deployment
 
@@ -211,17 +215,19 @@ During development the site is written in Gitpod.
 ## Credit
 
 ### Code
-* Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
-* README structure borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
+* Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
+* README structure borrows heavily from the [Code institute readMe](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
 ### Content
 
--   All content was written by the developer
+-   All content was written by the [developer](https://github.com/OmarBedawi)
 
 ### Media
 
 * All the shoe images used in the project have been borrowed by the website [nike.com Jordan section](https://www.nike.com/nl/en/jordan/).
-* The two large images of the index page are coming from google research.
+* The source of the two large images of the index page are:
+    * Top picture: [click here to see the source](https://s.wsj.net/public/resources/images/B3-CQ235_KHALED_M_20181212142521.jpg)
+    * Middle Picture: [click here to see the source](https://pbs.twimg.com/media/ArYo_F2CQAAuHV2.jpg)
 
 ## Disclaimer
 
